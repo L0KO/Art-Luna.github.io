@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/background/onlineLections.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5% 0%;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+}
+
+.firstTextBlock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topGreyRectangle{
+  width: 85%;
+  height: 60px;
+  background-color: #818181;
+}
+
+.escapeContainer{
+  margin-left: 2%;
+}
+
+.lastTextBlock{
+  margin-left: 15%;
+  margin-bottom: 3%;
+  width: 85%;
+  height: 60px;
+  background-color: #818181;
+}
+
+.mainTextBlock{
+  margin: 0px 15%;
+  /* width: 70%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainTextBlock div{
+  background-color: #818181;
+  padding: 1% 2%;
+  /* width: 100%; */
+  margin-bottom: 6%;
+}
+
+.mainTextBlock p{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  display: flex;
+  color: #FFFFFF;
+}
+
+.greenText{
+  font-weight: 500 !important;
+  font-size: 32px !important;
+  line-height: 46px !important;
+  color: #7DFF50 !important ;
+}
+
+.greenText:first-child{
+  margin: -55px 0px 4% 0px;
+}
+
+.greenText:last-child{
+  margin: 0px 0px -55px 0px;
+}
+
+.formBlock{
+  margin: 0px 15%;
+}
+
+.formBlock form{
+  display: flex;
+  flex-direction: column;
+}
+
+.mail{
+  /* border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #7DFF50; */
+  border: none;
+  height: 50px;
+  padding: 0px 2%;
+  background-color: #818181;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.mail::placeholder{
+  color: #FFFFFF;
+}
+
+.textArea{
+  padding: 2%;
+  background-color: #818181;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  resize: none;
+}
+
+.textArea::placeholder{
+  color: #FFFFFF;
+}
+
+.send-form{
+  width: 30%;
+  margin: 5% auto 0px auto;
+  padding: 3px 0px;
+  background: #7DFF50;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  border: none;
+}
+
+.send-form:hover{
+  background: #50ff76;
+  /* transition: 0.3s; */
+}
+
+.greenLine{
+  background-color: #7DFF50;
+  height: 10px;
+}

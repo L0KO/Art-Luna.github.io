@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #404040;
+}
+
+.greyRectangle{
+  width: 50%;
+  height: 70px;
+  margin-top: 4%;
+  background-color: #818181;
+}
+
+.topGreenLine{
+  width: 10px;
+  height: 200px;
+  margin: -70px 0px 0px 10%;
+  background-color: #7DFF50;
+}
+
+.bottomGreenLine{
+  width: 10px;
+  height: 200px;
+  margin: -180px 0px 0px 89%;
+  background-color: #7DFF50;
+}
+
+.topBlock{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -200px 13% 15px 13%;
+}
+
+.topBlock p{
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 69px;
+  color: #7DFF50;
+}
+
+.imageBlock{
+  display: flex;
+  flex-direction: column;
+}
+
+.imageBlock div{
+  display: flex;
+  flex-direction: column;
+}
+
+.inlineBlock_1{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  height: 90vh;
+}
+
+.inlineBlock_1 div{
+  width: 25%;
+  height: 100%;
+}
+
+.inlineBlock_2{
+  display: flex;
+  flex-direction: row !important;
+  width: 100% !important;
+  height: 130% !important;
+}
+
+.inlineBlock_2 div{
+  width: 50%;
+  height: 100%;
+}
+
+.inlineBlock_3{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  height: 90vh;
+  padding: 0px 12.5%;
+}
+
+.inlineBlock_3 div:first-child{
+  width: 70%;
+}
+
+.inlineBlock_3 div:last-child{
+  width: 30%;
+  height: 95.5%;
+}
+
+.inlineBlock_4{
+  display: flex;
+  flex-direction: row !important;
+  height: 30%;
+  width: 100% !important;
+}
+
+.inlineBlock_5{
+  display: flex;
+  flex-direction: row !important;
+  width: 100% !important;
+  height: 70% !important;
+}
+
+.inlineBlock_6{
+  display: flex;
+  flex-direction: row !important;
+  height: 70vh;
+  padding: 0px 12.5%;
+}
+
+.inlineBlock_7{
+  display: flex;
+  flex-direction: row !important;
+  width: 60% !important;
+}
+
+.inlineBlock_7 div{
+  width: 100%;
+  height: 100%;
+}
+
+.lastBlock{
+  width: 40%;
+}
+
+.image_1{
+  background-image: url(/img/myWork/1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 100% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_1:hover{
+  transform: scale(1.2);
+}
+
+.image_2{
+  background-image: url(/img/myWork/2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_2:hover{
+  transform: scale(1.2);
+}
+
+.image_3{
+  background-image: url(/img/myWork/3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 80% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_3:hover{
+  transform: scale(1.2);
+}
+
+.image_4{
+  background-image: url(/img/myWork/4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 120% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_4:hover{
+  transform: scale(1.2);
+}
+
+.image_5{
+  background-image: url(/img/myWork/5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 80% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_5:hover{
+  transform: scale(1.2);
+}
+
+.image_6{
+  background-image: url(/img/myWork/6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_6:hover{
+  transform: scale(1.2);
+}
+
+.image_7{
+  background-image: url(/img/myWork/7.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_7:hover{
+  transform: scale(1.2);
+}
+
+.image_8{
+  background-image: url(/img/myWork/8.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_8:hover{
+  transform: scale(1.2);
+}
+
+.image_9{
+  background-image: url(/img/myWork/9.2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_9:hover{
+  transform: scale(1.2);
+}
+
+.image_10{
+  background-image: url(/img/myWork/10.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px 5px;
+  transition: 1s;
+}
+
+.image_10:hover{
+  transform: scale(1.2);
+}
+
+.image_11{
+  background-image: url(/img/myWork/11.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px 5px;
+  transition: 1s;
+}
+
+.image_11:hover{
+  transform: scale(1.2);
+}
+
+.image_12{
+  background-image: url(/img/myWork/12.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px 5px;
+  transition: 1s;
+}
+
+.image_12:hover{
+  transform: scale(1.2);
+}
+
+.image_13{
+  background-image: url(/img/myWork/13.2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 125% !important;
+  height: 90% !important;
+  margin: 15px 5px;
+  transition: 1s;
+}
+
+.image_13:hover{
+  transform: scale(1.2);
+}
+
+.image_14{
+  background-image: url(/img/myWork/14.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px 5px;
+  transition: 1s;
+}
+
+.image_14:hover{
+  transform: scale(1.2);
+}
+
+.image_15{
+  background-image: url(/img/myWork/15.1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px 5px;
+  transition: 1s;
+}
+
+.image_15:hover{
+  transform: scale(1.2);
+}
+
+.image_16{
+  background-image: url(/img/myWork/16.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 112% !important;
+  margin: 15px auto;
+  transition: 1s;
+}
+
+.image_16:hover{
+  transform: scale(1.2);
+}
+
+.image_17{
+  background-image: url(/img/myWork/17.1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 90% !important;
+  margin: 15px auto 0px auto;
+  transition: 1s;
+}
+
+.image_17:hover{
+  transform: scale(1.2);
+}
+
+.image_18{
+  background-image: url(/img/myWork/18.1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90% !important;
+  height: 36% !important;
+  margin:  0px auto 0px 0px;
+  transition: 1s;
+}
+
+.image_18:hover{
+  transform: scale(1.2);
+}
+
+.image_19{
+  background-image: url(/img/myWork/21.jpg);
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 90% !important;
+  height: 50% !important;
+  margin: 15px auto 0px 0px;
+  transition: 1s;
+}
+
+.image_19:hover{
+  transform: scale(1.2);
+}
+
+.image_20{
+  background-image: url(/img/myWork/19.1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90% !important;
+  height: 36% !important;
+  margin:  0px auto;
+  transition: 1s;
+}
+
+.image_20:hover{
+  transform: scale(1.2);
+}
+
+.image_21{
+  background-image: url(/img/myWork/22.jpg);
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 90% !important;
+  height: 50% !important;
+  margin: 15px auto 0px auto;
+  transition: 1s;
+}
+
+.image_21:hover{
+  transform: scale(1.2);
+}
+
+.image_22{
+  background-image: url(/img/myWork/20.1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 90% !important;
+  height: 36% !important;
+  margin:  0px auto;
+  transition: 1s;
+}
+
+.image_22:hover{
+  transform: scale(1.2);
+}
+
+.image_23{
+  background-image: url(/img/myWork/23.jpg);
+  background-repeat: no-repeat;
+  background-size: 105%;
+  width: 90% !important;
+  height: 50% !important;
+  margin: 15px auto 0px auto;
+  transition: 1s;
+}
+
+.image_23:hover{
+  transform: scale(1.2);
+}
+
+.image_24{
+  background-image: url(/img/myWork/24.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 95% !important;
+  height: 86.5% !important;
+  margin: 0px auto;
+  transition: 1s;
+}
+
+.image_24:hover{
+  transform: scale(1.2);
+}

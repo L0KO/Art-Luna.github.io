@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css"   href="/css/styleAbonements.css">
+  <title>Art-Luna</title>
+</head>
+<body>
+  <div class="escapeBlock">
+    <div class="escapeContainer">
+      <a href="/"><img src="/icons/escapeButton.svg" alt=""></a>
+    </div>
+  </div>
+  <div class="mainBlock">
+    <form action="" method="post">
+      <div class="checkboxBlock">
+        <div class="firstText">
+          <label for="eightLessons">Абонемент на 8 занятий</label><br>
+          <label for="fourLessons">Абонемент на 4 занятия</label><br>
+          <label for="oneLesson">Разовое занятие</label><br>
+          <label for="privateLesson">Индивидуальный урок</label><br>
+        </div>
+        <div class="secondText">
+          <label for="eightLessons">– 3600.00 ₽</label><br>
+          <label for="fourLessons">– 2000.00 ₽</label><br>
+          <label for="oneLesson">– 700.00 ₽</label><br>
+          <label for="privateLesson">– 1500.00 ₽</label><br>
+        </div>
+        <div class="checkBoxContainer">
+          <input type="checkbox" id="eightLessons" name="eightLessons"><br>
+          <input type="checkbox" id="fourLessons" name="fourLessons"><br>
+          <input type="checkbox" id="oneLesson" name="oneLesson"><br>
+          <input type="checkbox" id="privateLesson" name="privateLesson"><br>
+        </div>
+      </div>
+      <div class="inputBlock">
+        <input type="text" class="Child_FIO" name="Child_FIO" placeholder="ФИО ребёнка" required>
+        <input type="text" class="parent_FIO" name="parent_FIO" placeholder="ФИО родителя" required>
+        <input type="number" class="child_age" name="child_age" placeholder="возраст ребёнка" required>
+        <input type="email" class="parent_Email" name="parent_Email" placeholder="Email родителя" required>
+        <input type="tel" class="phone" name="phone" placeholder="Телефон" required>
+        <input type="submit" class="send-form" name="" value="Отправить">
+      </div>
+      </form>
+  </div>
+</body>
+</html>

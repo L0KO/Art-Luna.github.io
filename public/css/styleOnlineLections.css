@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/background/onlineLections.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10% 10%;
+}
+
+.mainBlock{
+  background-color: #6A5D6E;
+  padding: 1%;
+}
+
+.topBlock{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topBlock p{
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 69px;
+  color: #7DFF50;
+}
+
+.videoBlock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.videoContainer{
+  margin: 20px 5px ;
+}
+
+.escapeContainer{
+  padding-right: 5px;
+}

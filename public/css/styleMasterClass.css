@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #404040;
+  padding: 10% 0px;
+}
+
+.mainBlock{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  margin: -10px 20% 0px 20%;
+}
+
+.formContainer{
+  background-color: white;
+  width: 50%;
+}
+
+.formContainer form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer form input{
+  border: 5px solid #7DFF50;
+  width: 75%;
+  margin-top: 10%;
+  padding: 3%;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.formContainer form input:first-child{
+  margin-top: 15% !important;
+}
+
+.send-form{
+  width: 50%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  padding: 3px 0px;
+  background: #7DFF50;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  border: none;
+}
+
+.send-form:hover{
+  background: #50ff76;
+  /* transition: 0.3s; */
+}
+
+.send-form:onClick{
+  background: #82ff50;
+}
+
+
+.textContainer{
+  width: 50%;
+}
+
+.textContainer p{
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 40px;
+  display: flex;
+  color: white;
+}
+
+.escapeBlock{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 10%;
+}
+
+.textBlock{
+  margin-top: -10%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 0px 0px 5%;
+}
+
+.leftGreenLine{
+  position: relative;
+  z-index: 2;
+  background: #7DFF50;
+  width: 50%;
+  height: 10px;
+}
+
+.rightGreenLine{
+  position: relative;
+  z-index: 2;
+  background: #7DFF50;
+  width: 80%;
+  height: 10px;
+  margin-left: 20%;
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/background/creativityImage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5% 0px;
+  font-family: 'Jost*', sans-serif;
+  font-style: normal;
+}
+
+.mainBlock {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding-top: 2%;
+}
+
+.textBlock {
+  width: 55%;
+}
+
+.textContainer ol {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34.68px;
+}
+
+.textContainer {
+  margin-top: -60px;
+  margin-left: 35%;
+  margin-bottom: 25px;
+  padding-left: 35px;
+  padding-top: 7px;
+  position: relative;
+  z-index: 1;
+  border-left: solid 10px #7DFF50;
+}
+
+.greyRectangle {
+  position: relative;
+  z-index: 0;
+  background-color: #9BA4C4;
+  height: 60px;
+}
+
+.textContainer h1 {
+  margin-left: -25px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46.24px;
+}
+
+.escapeBclock {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  margin-right: 24%;
+  margin-bottom: 30px;
+}
+
+.imageBlock {
+  width: 45%;
+}
+
+.imageContainer {
+  margin-left: 30px;
+  display: flex;
+}
+
+.imageContainer img {
+  width: 75%;
+}
+
+.pinkRectangle {
+  height: 85px;
+  background-color: #F8DAE0;
+  width: 100%;
+}
+
+.bottomGreyRectangle {
+  margin-top: -15px;
+  height: 75px;
+  width: 35%;
+  background-color: #C1CCDE;
+}
