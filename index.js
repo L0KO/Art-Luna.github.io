@@ -115,14 +115,14 @@ async function main(subject, text) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: 'viktor_s0l@mail.ru', // generated ethereal user
-      pass: '3DzA8h1e92aLJdgcdnFC', // generated ethereal password
+      user: 'daria-ukhova@mail.ru', // generated ethereal user
+      pass: 'rCgXBJ4h9gazffjPy3MM', // generated ethereal password
     },
   });
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: '"viktor_s0l@mail.ru', // sender address
-    to: "AIM325@ya.ru", // list of receivers
+    from: '"daria-ukhova@mail.ru', // sender address
+    to: "eucalipttree@mail.ru", // list of receivers
     subject: `${subject}`, // Subject line
     text: "", // plain text body
     html: `${text}`, // html body
