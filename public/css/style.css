@@ -529,7 +529,7 @@ footer {
   color: #000000;
 }
 
-.infoColumn div {
+.infoColumn a {
   height: 47px;
   width: 211px;
   background: #7DFF50;
@@ -537,6 +537,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  color: #000000;
 }
 
 .wideInfoBlock {
